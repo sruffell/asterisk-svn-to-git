@@ -17,7 +17,7 @@ speak the git fast-import protocol from a dump of the Asterisk repository.
 
 log-check are intended to be used to process the asterisk log file and pull out
 any potential authors. This will be used to look for git-style "John Doe
-<jdoe@example.com>" identity information from contributors who did not have
+&lt;jdoe@example.com&gt;" identity information from contributors who did not have
 Subversion commit access but would now like to be listed as the author on the
 git commit.
 
