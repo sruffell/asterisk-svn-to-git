@@ -1,0 +1,12 @@
+# These are the regular expressions used to pull the authors from the subversion
+# log stream. The first capture should be the actual name of the author,
+# whitespace will be stripped from the author name after the capture.
+
+# 1. Match the author from the revision line of the log
+^r[0-9]+\s[|]\s([a-zA-Z0-9]+)\s[|]\s.*
+
+# 2. Match the "patch by" lines
+^\s*patch(?:\s|-)+by\s?:?([^(<),/]+).*$
+
+# 3. Some of the patches were specified by upload by lines
+.*uploaded by\s?:?\s+([^(<),/]+).*$

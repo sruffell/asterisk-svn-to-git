@@ -1,0 +1,11 @@
+# This file is for quickly testing the log-check functions.
+patch by A A (license 6300)
+patch by: B B (license 6300)
+uploaded by C C (license 400)
+Uploaded by: dd (license 400)
+  uploaded by: ee (license 400)
+uploaded by: EE (license 400)
+patch by: F F
+  uploaded by f f
+Patch-by: George George, Good Job!
+	Patch-by: hal/hol/himlet
